@@ -264,7 +264,7 @@ public class AlertDiglogDemo extends AppCompatActivity {
         DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener(){
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                tView.setText("输入的是:"+tD.getText().toString());
+                tView.setText("输入的是 :"+tD.getText().toString());
             }
         };
         dialog.setButton(DialogInterface.BUTTON_POSITIVE,"确定",listener);
